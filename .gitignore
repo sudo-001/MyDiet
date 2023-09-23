@@ -1,0 +1,24 @@
+# Next.js
+.next/
+out/
+.cache/
+yarn-error.log
+
+# IDE/Editor
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+.komodotools/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.vscode/
+.DS_Store
+
+# Dependencies
+/node_modules
+
+# Build artifacts
+/build
