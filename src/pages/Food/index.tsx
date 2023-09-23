@@ -33,7 +33,7 @@ function Food({ }: Props) {
 
             {/* Flooting Adding btn */}
             {/* Open the modal using document.getElementById('ID').showModal() method */}
-            <button className="p-4 absolute bottom-4 right-4 rounded-full bg-green-600" onClick={() => document.getElementById('my_modal_5').showModal()}>
+            <button className="btn btn-circle absolute bottom-4 right-4 rounded-full bg-green-600" onClick={() => document.getElementById('my_modal_5').showModal()}>
                 <AiOutlinePlus className="text-white font-extrabold text-2xl" />
             </button>
             <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle">

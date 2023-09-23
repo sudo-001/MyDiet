@@ -4,7 +4,7 @@ type Props = {}
 
 function Topbar({ }: Props) {
     return (
-        <div className="navbar bg-green-500">
+        <div className="navbar bg-green-500 lg:px-16">
             <div className="flex-1">
                 <a className="btn btn-ghost normal-case text-xl text-white font-bold ">MyDiet</a>
             </div>

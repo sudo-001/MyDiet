@@ -10,7 +10,7 @@ type Props = {}
 
 function BottomBar({ }: Props) {
     return (
-        <div className='flex-1 w-full px-4 py-2'>
+        <div className='flex-1 w-full px-4 py-2 lg:hidden'>
             <div className='rounded-full w-full flex justify-around bg-white backdrop-blur-lg '>
                 <Link href="./Home/" className='p-2 rouded-full flex flex-col'>
                     <Image src={home} alt="user" className='w-8 h-8' />

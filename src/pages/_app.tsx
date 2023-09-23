@@ -1,4 +1,5 @@
 import BottomBar from '@/components/global/BottomBar';
+import Footer from '@/components/global/Footer';
 import Topbar from '@/components/global/Top';
 import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
@@ -9,5 +10,6 @@ export default function App({ Component, pageProps }: AppProps) {
       <Topbar />
       <Component {...pageProps} />
       <BottomBar />
+      <Footer />
     </div>);
 }
